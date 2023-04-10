@@ -25,7 +25,7 @@ int choice=1;
 // just for linked list implementation
 while(choice){
 
-newnode = (struct node*)malloc(sizeof(struct node)); //assigning storage according to struct node which 4 + 4 = 8 bytes here
+newnode = (struct node*)malloc(sizeof(struct node)); //assigning storage according to struct node which 4 + 4 + 4 =12 bytes here
 
 printf("Enter Data:");
 
