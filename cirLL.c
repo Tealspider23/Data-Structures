@@ -6,12 +6,16 @@ struct node{
     struct node*next;
 };
 int calcSize(struct node *node){
-    int size =0;
-    while(node!=0){
-        node = node->next;
-        size++;
-    }
-    return size;
+  int size =0;
+    if(head==0){
+    return 0 ;
+}
+struct node*temp=head;
+do{
+    temp=temp->next;
+    size++;
+}
+while(temp!=head);
 }
 
 void display(struct node* head){
