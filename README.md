@@ -14,3 +14,5 @@ DLL - Doubly Linked List
 CLL - Circular Linked list
 DCLL - Doubly Circular Linked list
 BT - Binary Tree
+STK -Stack
+QUE - Queue
