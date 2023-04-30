@@ -1,2 +1,8 @@
 # Data-Structures
-Linked Lists - inclusive Stacks and Queues
+Linked Lists 
+Stacks 
+Queues
+Trees
+Graphs
+Hashing
+
