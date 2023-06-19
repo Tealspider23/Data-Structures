@@ -150,7 +150,7 @@ void inorder(Node*t){
 }
 
 int main(){
-    printf("Hello this is AVL Tree :");
+    printf("Hello this is AVL Tree : \n");
     Node* root = NULL;
 
     root = insert(root , 6);
