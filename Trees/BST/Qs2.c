@@ -19,7 +19,7 @@ TreeNode* createNode(int data){
 
 int compare(const void* a , const void* b){
     return (*(int*)a - *(int*)b);
-}
+} 
 
 void inorder(TreeNode* root){
     if(root == NULL)
